@@ -1,0 +1,9 @@
+variables:
+  environment: ou
+  
+  serviceConnection : 'AWS-SvcConnection-Core'
+  varFilePath       : 'tfvars/ou.tfvars'
+
+  # Backend Configuration:
+  backendAWSBucketName: 'awumaster-tfstate-bucket-01'
+  backendAWSKey       : 'ou/terraform.tfstate'
