@@ -35,8 +35,8 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_crl_dev_ou_id"></a> [crl\_dev\_ou\_id](#input\_crl\_dev\_ou\_id) | ID of CRL Organization Unit | `string` | n/a | yes |
-| <a name="input_crl_ou_id"></a> [crl\_ou\_id](#input\_crl\_ou\_id) | ID of CRL Organization Unit | `string` | n/a | yes |
+| <a name="input_env_dev_ou_id"></a> [env\_dev\_ou\_id](#input\_env\_dev\_ou\_id) | ID of env Organization Unit | `string` | n/a | yes |
+| <a name="input_env_ou_id"></a> [env\_ou\_id](#input\_env\_ou\_id) | ID of env Organization Unit | `string` | n/a | yes |
 | <a name="input_dev_ou_name"></a> [dev\_ou\_name](#input\_dev\_ou\_name) | Name of OU to be provisioned | `string` | n/a | yes |
 | <a name="input_dmztest_ou_name"></a> [dmztest\_ou\_name](#input\_dmztest\_ou\_name) | Name of OU to be provisioned | `string` | n/a | yes |
 | <a name="input_dsap_ou_name"></a> [dsap\_ou\_name](#input\_dsap\_ou\_name) | Name of OU to be provisioned | `string` | n/a | yes |
